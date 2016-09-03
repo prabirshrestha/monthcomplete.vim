@@ -3,5 +3,5 @@ if !exists('g:month_complete#omnifunc')
 endif
 
 if exists('&omnifunc') && g:month_complete#omnifunc
-    setl omnifunc=month_complete#complete
+    setl omnifunc+=month_complete#complete
 endif
